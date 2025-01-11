@@ -1,0 +1,18 @@
+name: AccessPortal
+version: '${version}'
+main: com.spectrasonic.accessportal.Main
+api-version: '1.21'
+authors: [Spectrasonic]
+author: YourName
+description: Restricts portal access based on permissions
+commands:
+  portalpass:
+    description: Reloads the configuration
+    usage: /portalpass reload
+permissions:
+  portal.pass.nether:
+    description: Allows passing through Nether portals
+    default: op
+  portal.pass.end:
+    description: Allows passing through End portals
+    default: op

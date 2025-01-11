@@ -1,0 +1,10 @@
+# Access Portal Configuration
+
+# You can use MiniMessage to format messages
+# https://docs.adventure.kyori.net/minimessage.html
+# https://webui.advntr.dev/
+
+messages:
+  denied-title: "<red>Access Denied"
+  denied-subtitle: "You need permission to pass"
+  reload-message: "<dark_gray>[<color:#ffaa33>PortalAccess<dark_gray>] <white>>> <green><bold>Configuration reloaded!"
